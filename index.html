@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1">
+        <title>TO DO LIST</title>
+        <link  rel="stylesheet"href="assets/styles.css">
+        <link rel="icon" href="assets/favicon.ico">
+    </head>
+    <body>
+    <div class="mains">
+        <div class="todo-design">
+            <h2>TO-DO-LIST</h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="What's New??State it!">
+                <button onclick="addTask()">+</button>
+            </div>
+           <ul id="container">
+               <!--  <li class="checked" >Task A</li>
+                <li>Task A</li>
+                <li>Task A</li>-->
+            </ul>
+        </div>
+    </div>
+    </body>
+    <script src="assets/script.js"></script>
+     <script src="three.r134.min.js"></script>
+  <script src="vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#form",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x1544,
+      shininess: 105.00,
+      waveHeight: 23.00,
+      waveSpeed: 1.20,
+      zoom: 1.26
+    })
+  </script>
+
+</html>
