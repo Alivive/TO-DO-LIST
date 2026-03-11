@@ -14,13 +14,25 @@ function addTask(){
     li.appendChild(span);
        }
     inputBox.value ="";
+    saveData();
    }
  
    Container.addEventListener("click", function(e){
      if(e.target.tagName === "LI"){
         e.target.classList.toggle("checked");
+        saveData();
      }
-     else if(e.target.tagname === "span"){
+     else if(e.target.tagname === "SPAN"){
          e.target.parentElement.remove();
+         saveData();
      }
    }, false);
+
+   function saveData(){
+      localStorage.setItem("data", Container.innerHTML );
+   }
+   function showTask(){
+      Container.innerHTML = localStorage.getItem("data");
+   }
+   showTask();
+   
