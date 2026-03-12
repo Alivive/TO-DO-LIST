@@ -11,14 +11,25 @@
     width:100%;
     min-height: 100vh;
     padding: 10px;
-    background: linear-gradient(to right,blue,red);
+    position:relative;
+    z-index:1;
+    /* background: linear-gradient(to right,blue,red); */
+}
+#bg-video{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit: cover;
+z-index:-2;
 }
 
 .todo-design
 {
 width: 100%;
 max-width: 540px;
-background: white;
+background:beige;
 margin: 100px auto 20px;
 padding: 40px 30px 70px;
 border-radius: 30px;
@@ -26,8 +37,8 @@ border-radius: 30px;
 
 .todo-design h2
 {
-  color:blue ;
-  background: gold;
+  color:black ;
+  background: white;
   display:flex ;
   align-items: center;
   justify-content: center;
@@ -39,7 +50,7 @@ border-radius: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background:whitesmoke;
+  background:wheat;
   border-radius: 30px;
   padding-left: 20px;
   margin-bottom: 25px;
@@ -51,7 +62,7 @@ input{
     outline:none;
     background:transparent;
     padding: 10px;
-    font-weight:50px;
+    font-weight:60px;
     color: black;
 }
 
@@ -59,9 +70,9 @@ button{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: blue;
-    color: white;
-    font-size: 18px;
+    background: rgb(108, 169, 16);
+    color: black;
+    font-size: 20px;
     cursor: pointer;
     border-radius: 40px;
 }
@@ -92,7 +103,7 @@ ul li::before
 
 ul li.checked
 {
- color: black;
+ color: whitesmoke;
  text-decoration: line-through;
 }
 
@@ -108,8 +119,8 @@ ul li span
     top: 5px;
     width: 40px;
     height: 40px;
-    font-size: 22px;
-    color: brown;
+    font-size: 30px;
+    color: green;
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
@@ -117,5 +128,10 @@ ul li span
    
 ul li span:hover
 {
-  background: greenyellow;
+  background: rgb(205, 203, 203);
 }
+
+
+
+    
+    

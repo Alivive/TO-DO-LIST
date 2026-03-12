@@ -22,7 +22,7 @@ function addTask(){
         e.target.classList.toggle("checked");
         saveData();
      }
-     else if(e.target.tagname === "SPAN"){
+     else if(e.target.tagName === "SPAN"){
          e.target.parentElement.remove();
          saveData();
      }
