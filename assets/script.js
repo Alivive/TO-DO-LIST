@@ -36,24 +36,4 @@ function addTask(){
    }
    showTask();
 
- document.addEventListener("DOMContentLoaded", () => {
-  const messages = [
-    "Having Challenges???",
-    "Let's Fix it Now!!!",
-    "Achieve More!!"
-  ];
-  let i = 0;
-
-  const animatedText = document.getElementById("animated-text");
-  if(!animatedText){
-    console.error("Animated text element not found!");
-    return;
-  }
-
-  setInterval(() => {
-    console.log("Changing text to:", messages[i]); // debug
-    animatedText.textContent = messages[i];
-    i = (i + 1) % messages.length;
-  }, 3000);
-});
    
