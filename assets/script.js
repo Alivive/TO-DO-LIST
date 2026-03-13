@@ -1,4 +1,5 @@
-const inputBox= document.getElementById("input-box");
+document.addEventListener("DOMContentLoaded", () => {
+   const inputBox= document.getElementById("input-box");
 const Container= document.getElementById("container");
 
 function addTask(){
@@ -35,5 +36,22 @@ function addTask(){
       Container.innerHTML = localStorage.getItem("data");
    }
    showTask();
+   document.addEventListener("DOMContentLoaded", () => {
+  const animatedText = document.getElementById("animated-text");
 
+  const messages = [
+    "Having Challenges???",
+    "Are you ready to level up????", 
+    "Let's kickstart!"
+  ];
+
+  let index = 0;
+
+  setInterval(() => {
+    index = (index + 1) % messages.length;
+    animatedText.textContent = messages[index];
+  }, 2000); // 2000ms = 2 seconds
+});
+
+})
    
