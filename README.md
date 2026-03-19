@@ -7,7 +7,7 @@ Furthermore, it also has the Confetti animation which is a simple reward system 
 
 PROJECT SPECIFICATIONS:The Project has been designed using HTML ,CSS and Javascript to produce the excellent result obtained.
 
-To have a view of this demo,check it out here..
+To have a view of this demo,check it out here..https://alivive.github.io/TO-DO-LIST/
 
 
           
