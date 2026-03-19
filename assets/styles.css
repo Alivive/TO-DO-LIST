@@ -109,6 +109,53 @@ border-radius: 40px;
   padding-left: 20px;
   margin-bottom: 25px;
 }
+/* .stat-container{
+  padding: 15px 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 4px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+
+.details{
+  width: 100%;
+}
+.details h3{
+  color: azure;
+}
+#progressbar{
+  width: 100%;
+  height: 7px;
+  background: #000;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 15px;
+}
+
+#progress{
+  width: 50%;
+  height: 100%;
+  background: #000;
+  border-radius: 20px;
+  transition: width 0.3sec ease;
+}
+
+#numbers{
+   display: flex;
+   align-items: center;
+   width: 80px;
+   height: 80px;
+   background: #000;
+   border: 2px solid;
+   font-weight: bold;
+   border-radius: 50%;
+   font-size: 1.5rem;
+
+} */
 
 input{
     flex: 1;

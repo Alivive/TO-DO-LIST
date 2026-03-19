@@ -1,6 +1,8 @@
 
    const inputBox= document.getElementById("input-box");
 const Container= document.getElementById("container");
+const progressBar= document.getElementById("progress");
+const numbers=document.getElementById("numbers");
 
 function addTask(){
     if(inputBox.value === ''){
@@ -16,7 +18,7 @@ function addTask(){
        }
     inputBox.value ="";
     saveData();
-   }
+       }
  
    Container.addEventListener("click", function(e){
      if(e.target.tagName === "LI"){

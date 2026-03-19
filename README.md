@@ -1,9 +1,13 @@
+PROJECT 2: DESIGNING A TO-DO-LIST(FRONT-END)
+GOAL: MAXIMISE ON TIME MANAGEMENT.
 
-Overview: In an attempt to aid in the time management processes, designed is a simple to-do-list which grants the user unique capabilities to add data,
-          edit, confirm once completed and a simple reward system using the confetti animation which celebrates user upon completion of tasks
-          set upon for completion.The to do list is designed in a simple way which enables easy use by any user whatsoever to help in attaining of the desired goals.
-          
-Development:The website brings to life the use of HTML5,CSS and some javascript all to a level of great extent demonstrating what proper understanding by a programmer 
-            beginner level can attain.
+OVERVIEW:This Demo is mainly focused on helping users to maximise on their time management skills through a common tool: A To-Do-List. Though a mere demo, it gives a user the ability to add items, edit items, delete them and also has a progress bar to track the list items present and completed.
+ 
+Furthermore, it also has the Confetti animation which is a simple reward system used to congratulate a users on the work completed so far hence a fantastic must have application .
+
+PROJECT SPECIFICATIONS:The Project has been designed using HTML ,CSS and Javascript to produce the excellent result obtained.
+
+To have a view of this demo,check it out here..
+
 
           
